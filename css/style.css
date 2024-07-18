@@ -1,0 +1,118 @@
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 0 auto;
+}
+body {
+    background-color: #F6F5F3;
+    font-family: 'Montserrat', 'Helvetica Neue', sans-serif;
+    max-width: 1080px;
+    border: 2px dashed blueviolet;
+}
+h1 { font-family:'Nerko One', cursive; ;
+    color: #FD9F2B;
+    font-size: 3rem;
+
+}
+h2 {
+    color: #4E3969;
+    padding-right: 190px;
+    font-weight: bold;
+}
+h4 {
+    color: #c9beb2d7;
+}
+
+
+h5 {
+    margin-left: 200px;
+}
+.main-container {
+    max-width: 100%;
+    margin: 0 auto;
+    border: 1px dashed;
+}
+#intro button {
+    background-color: #FD9F2B;
+    color: white;
+    display: inline;
+    border-radius: 10px;
+    height: 20px;
+}
+
+
+/*header*/
+.header-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 100px;
+    min-width: 100%;
+    background-color: white;
+    
+}
+
+/*Main-intro*/
+.title_rate-flex {
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    border: 2px dashed;
+
+}
+.bottom-flex {
+    display: flex;
+}
+.star {
+    color: #FD9F2B;
+    font-weight: bold;
+    font-size: 1rem;
+}
+/*Main-#video-card*/
+#video-card .row {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+#video-card .row {
+    flex-basis: 100%;
+}
+
+
+.card {
+    background-color: white;
+    border: 2px dashed;
+}
+
+.info-top {
+    min-height: 70px;
+    max-width: 70%;
+    background-color: #F6F5F9;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    border: 2px red dashed;
+    margin-top: 30px;
+    gap: 272px;
+
+}
+.info-top  h4 {
+    color: #FD9F2B;
+}
+
+.calories {
+    height: 20px;
+    text-align: center;
+    width: 70px;
+    background-color: #7B69A2;
+    color: white;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.line {
+    border-bottom: 1px solid lightgrey;
+}
