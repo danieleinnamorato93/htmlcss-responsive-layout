@@ -24,6 +24,16 @@ h2 {
 h4 {
     color: #c9beb2d7;
 }
+h6 {
+    font-weight: normal;
+    font-size: 12px;
+}
+.footer-left h6 {
+        text-align: center;
+        color: white;
+        font-weight: bold;
+}
+
 
 img { 
     width: 100%;
@@ -33,7 +43,10 @@ ul {
     margin-top: 10px;
     padding-inline-start: 0px;
 }
-
+a {
+    font-size: 11px;
+    color: white;
+}
 .main-container {
     max-width: 100%;
     margin: 0px 20px;
@@ -131,7 +144,9 @@ ul {
     display: flex;
     justify-content: space-around;
 }
-
+    .fa-brands {
+        font-size: 1.1rem;
+    }
  .line-orng {
         border-bottom: 3px solid #FD9F2B;
         margin-bottom: 30px;
@@ -141,5 +156,17 @@ ul {
     .banner {
         margin-bottom: 30px;
         display: none;
+    }
+
+    footer {
+        background-color: #4E3969;
+    }
+    .flex-cont  {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+}
+
+
     }
 

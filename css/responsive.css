@@ -1,11 +1,11 @@
 
-
+/*TABLET*/
 @media screen and (min-width: 769px) {
-    h1 {
+h1 {
         text-align: left ;
     }
 
-    .main-container {
+.main-container {
         
         padding: 10px;
 }
@@ -47,7 +47,76 @@ ul {
     max-width: 100%; 
     height: auto;
 }
-
-@media screen and (min-width: 993px) {
+}
  
+/*DESKTOP*/
+@media screen and (min-width: 993px) {
+    h2 {
+        font-size: 4rem;
+    }
+    .title_rate-flex h2::after {
+        content: '( Dolce tradizionale)';
+        font-size: 4rem;}
+
+ul {
+    flex-direction: column;
+    align-items: flex-start;
+    }
+
+#video-card button {
+    width: 100%;
+    MARGIN: 5PX;}
+
+.fa-brands {
+    font-size: 1.3rem;
+    
+}
+.fa-facebook::after {
+   
+    content: 'FACEBOOK ';
+    text-align: center;
+    font-size: 12px;
+    color: black;
+}
+
+.fa-twitter::after {
+   
+    content: 'TWITTER ';
+    text-align: center;
+    font-size: 12px;
+    color: black;
+}
+
+.fa-pinterest::after {
+   
+    content: 'PINTEREST ';
+    text-align: center;
+    font-size: 12px;
+    color: black;
+}
+.fa-youtube::after {
+   
+    content: 'YOUTUBE ';
+    text-align: center;
+    font-size: 12px;
+    color: black;
+}
+.fa-instagram::after {
+   
+    content: 'INSTAGRAM ';
+    text-align: center;
+    font-size: 12px;
+    color: black;
+}
+.fa-brands:before {
+    padding: 3px;
+
+}
+
+
+
+
+
+
+
 }
