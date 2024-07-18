@@ -45,12 +45,12 @@ ul {
     height: 20px;
 }
 #video-card button {
-    background-color: white;
+    background-color: whorite;
     color:  darkblue;
     border-radius: 20px;
     height: 35px;
     width: 55px;
-    border: none;
+   
 }
 
 
@@ -79,6 +79,7 @@ ul {
 #video-card .row {
     margin-top: 30px;
     display: flex;
+    margin-bottom: 10px;
     
 }
 #video-card .col {
@@ -135,5 +136,10 @@ ul {
         border-bottom: 3px solid #FD9F2B;
         margin-bottom: 30px;
         max-width: 60px;
+    }
+    
+    .banner {
+        margin-bottom: 30px;
+        display: none;
     }
 

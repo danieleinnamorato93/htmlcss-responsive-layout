@@ -21,6 +21,31 @@ h2 {
 ul {
     display: flex;
     text-align: center;
+    gap: 10px;
+}
+#video-card button {
+    width: 100px;
+}
+.button-flex-cont {
+   
+    margin-bottom: 20px;
+}
+
+.banner {
+    display: block;
+}
+.tiramisu-image {
+    float: left;
+    width: 280px;
+    margin-right: 10px; 
+    
+
+}
+
+.tiramisu-image img {
+    display: block;
+    max-width: 100%; 
+    height: auto;
 }
 
 @media screen and (min-width: 993px) {
