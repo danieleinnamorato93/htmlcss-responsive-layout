@@ -1,7 +1,26 @@
+
+
 @media screen and (min-width: 769px) {
     h1 {
-        text-align: unset ;
+        text-align: left ;
     }
+
+    .main-container {
+        
+        padding: 10px;
+}
+h2 {
+    font-size: 2rem;
+}
+
+.title_rate-flex h2::after {
+    content: '( Dolce tradizionale)';
+    font-size: 2rem;
+
+}
+ul {
+    display: flex;
+    text-align: center;
 }
 
 @media screen and (min-width: 993px) {
