@@ -17,12 +17,21 @@ h2 {
     color: #4E3969;
     font-weight: bold;
 }
+#presentation h2 {
+    font-size: 2rem;
+    color: black;
+}
 h4 {
     color: #c9beb2d7;
 }
 
 img { 
     width: 100%;
+}
+ul {
+    list-style-type: none;
+    margin-top: 10px;
+    padding-inline-start: 0px;
 }
 
 .main-container {
@@ -34,6 +43,14 @@ img {
     color: white;
     border-radius: 10px;
     height: 20px;
+}
+#video-card button {
+    background-color: white;
+    color:  darkblue;
+    border-radius: 20px;
+    height: 35px;
+    width: 55px;
+    border: none;
 }
 
 
@@ -80,6 +97,7 @@ img {
     justify-content: space-between;
     align-items: center;
     margin-top: 30px;
+    padding: 10px;
 
 }
 .info-top  h4 {
@@ -98,3 +116,24 @@ img {
 .line {
     border-bottom: 1px solid lightgrey;
 }
+.info-bottom {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    background-color: #F6F5F9;
+}
+.fa-clock{
+    color: #FD9F2B;
+    padding-right: 2px;
+}
+.button-flex-cont {
+    display: flex;
+    justify-content: space-around;
+}
+
+ .line-orng {
+        border-bottom: 3px solid #FD9F2B;
+        margin-bottom: 30px;
+        max-width: 60px;
+    }
+
